@@ -1,0 +1,13 @@
+<h1>Hello World!</h1>
+<p>Find me in app/views/demo/index.html.erb</p>
+
+<a href="/demo/hello">Click Me 1</a> </br>
+<%= link_to("Click Me 2", {:action => 'hello'}) %>
+
+<br />
+
+<%= link_to("Hello with Params", {:action => 'hello', :page => 5, :id => 20}) %>
+
+<br />
+
+<%= link_to("All Subjects", subjects_path) %>
